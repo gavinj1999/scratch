@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>code</title>
+  <meta name="description" content="">
+  <meta name="author" content="Gavin Jones">
+
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+</head>
+
+<body>
+<code>
+	papercut@papercutz.co.uk [~/public_html]# curl -vso /dev/null https://papercutz.co.uk/js/tiny_mce/langs/en.js
+* About to connect() to papercutz.co.uk port 443 (#0)
+*   Trying 2400:cb00:2048:1::6819:3013... connected
+* Connected to papercutz.co.uk (2400:cb00:2048:1::6819:3013) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+* Server certificate:
+*       subject: CN=ssl390502.cloudflaressl.com,OU=PositiveSSL Multi-Domain,OU=Domain Control Validated
+*       start date: Nov 30 00:00:00 2016 GMT
+*       expire date: Jun 04 23:59:59 2017 GMT
+*       common name: ssl390502.cloudflaressl.com
+*       issuer: CN=COMODO ECC Domain Validation Secure Server CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB
+> GET /js/tiny_mce/langs/en.js HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.21 Basic ECC zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: papercutz.co.uk
+> Accept: */*
+>
+< HTTP/1.1 200 OK
+< Date: Wed, 07 Dec 2016 09:42:22 GMT
+< Content-Type: application/javascript
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Set-Cookie: __cfduid=d63f9de45e304d3d5ca948a384418f2781481103742; expires=Thu, 07-Dec-17 09:42:22 GMT; path=/; domain=.papercutz.co.uk; HttpOnly
+< Cache-Control: public, max-age=31536000
+< Expires: Thu, 07 Dec 2017 09:42:22 GMT
+< ETag: W/"1973-5847249c-e253fb46f121033d"
+< Last-Modified: Tue, 06 Dec 2016 20:50:36 GMT
+< Vary: Accept-Encoding,Accept-Encoding
+< X-Turbo-Charged-By: LiteSpeed
+< CF-Cache-Status: MISS
+< Server: cloudflare-nginx
+< CF-RAY: 30d706f38b9a361d-MAN
+<
+{ [data not shown]
+* Connection #0 to host papercutz.co.uk left intact
+* Closing connection #0
+	
+</code>
+</body>
+</html>
